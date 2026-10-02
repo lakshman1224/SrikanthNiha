@@ -1,0 +1,3 @@
+The exact MP3 uploaded by the user is bundled as kalavathi-music.mp3.
+Music is started/stopped by the visible Music ON/OFF button.
+Browsers generally block audible autoplay until the user interacts with the page, so playback starts from the button click.

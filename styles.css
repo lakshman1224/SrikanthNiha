@@ -1,0 +1,170 @@
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:'Potti Sreeramulu','Noto Serif Telugu',serif;color:#4b241b;background:#fff7e7}body:before{content:'';position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.1;background-image:radial-gradient(#5b0c18 .7px,transparent .7px);background-size:7px 7px}header{position:fixed;top:0;left:0;right:0;height:50px;z-index:80;padding:0 18px;display:flex;align-items:center;color:#e9c875;font:22px 'Cormorant Garamond',serif}header span{height:1px;background:#b98a37;flex:1;margin:0 15px;opacity:.35}header b{font:12px 'Cormorant Garamond',serif;font-weight:700}main{height:100%}.page{position:absolute;inset:0;visibility:hidden;opacity:0;transform:scale(1.025);transition:.7s;overflow:auto}.page.active{visibility:visible;opacity:1;transform:scale(1)}.hero{background:radial-gradient(circle at 50% 38%,#c998371f,transparent 27%),linear-gradient(145deg,#35050d,#711020 50%,#35050d);color:#fff1c5}.page:not(.hero){background:linear-gradient(#fff9eb,#f0d9ad)}.hero:after,.page:not(.hero):after{content:'';position:absolute;inset:15px;border:1px solid #d3aa5838;border-radius:12px;pointer-events:none}.content{width:min(1000px,92%);min-height:100%;margin:auto;padding:75px 0 95px;justify-content:center;position:relative;z-index:2}.center{display:flex;flex-direction:column;align-items:center;text-align:center}.mandala{position:absolute;width:470px;height:470px;border:1px solid #e6c87318;border-radius:50%;left:-270px;top:12%}.mandala:before,.mandala:after{content:'';position:absolute;inset:45px;border:1px dashed #e6c87318;border-radius:50%}.mandala:after{inset:105px;border-style:solid}.ganesha{width:205px;height:205px;border-radius:50%;padding:7px;position:relative;margin-bottom:18px}.ganesha:before{content:'';position:absolute;inset:0;border-radius:50%;border:2px solid #f2d98b;box-shadow:0 0 0 7px #d5a33d18,0 0 50px #e5b94133}.ganesha:after{content:'';position:absolute;inset:12px;border-radius:50%;border:1px dashed #f1d47e;z-index:3}.ganesha img{width:100%;height:100%;object-fit:cover;border-radius:50%;position:relative;z-index:2;filter:saturate(1.08) contrast(1.06)}.ganesha-glow{position:absolute;inset:-20px;border-radius:50%;background:radial-gradient(circle,rgba(238,193,77,.24),transparent 66%);filter:blur(14px);animation:ganeshaGlow 3.5s ease-in-out infinite;z-index:1}@keyframes ganeshaGlow{50%{transform:scale(1.08);opacity:.7}}.om{font:22px 'Cormorant Garamond',serif;font-weight:600;color:#f1d58b}.hero p{font-size:14px;line-height:1.9;color:#f1dba4}.line{color:#e1ba59;margin:15px 0}.hero h1{font-size:clamp(40px,8vw,78px);line-height:1.1;margin:0;color:#fff0bf}.hero h1 em{font-style:normal;color:#e2b957}.hero small{font:15px 'Cormorant Garamond',serif;font-weight:600;letter-spacing:3px;color:#e5cd91}.page label{color:#995d20;letter-spacing:3px;font-size:14px}.page h2{font-size:clamp(32px,6vw,62px);color:#650c1a;margin:15px 0 25px}.page h2 i{font-style:normal;color:#a61b30}.page .content>p{line-height:2;font-size:16px}.card,.venue,.families article{border:1px solid #d4b368;background:#fffdf4b8;box-shadow:0 20px 50px #5c2b1712;border-radius:12px}.card{width:min(620px,100%);padding:32px;margin:10px 0 18px}.card strong{font:48px 'Cormorant Garamond',serif;font-weight:700;color:#690d1b}.card i{color:#b76a3e}.families{width:min(920px,100%);display:grid;grid-template-columns:1fr 60px 1fr;align-items:center;gap:15px}.families article{padding:28px 15px}.families small{color:#a06323;letter-spacing:2px}.families h3{font-size:38px;color:#650c1a;margin:5px}.families hr{width:80px;border:0;border-top:1px solid #cda852}.families p{margin:5px;font-size:17px}.heart{width:52px;height:52px;border:1px solid #d3ad5a;border-radius:50%;display:grid;place-items:center;color:#a71d30;background:#fff8e9}.page blockquote{color:#8c5b2e;font-style:italic;margin:28px 0}.page button{border:1px solid #d2a74f;background:linear-gradient(135deg,#650c1a,#8b1428);color:#ffe9ae;border-radius:50px;padding:13px 22px;font:15px 'Potti Sreeramulu','Noto Serif Telugu',serif;cursor:pointer;margin-top:23px;transition:.3s}.page button:hover{transform:translateY(-3px);box-shadow:0 12px 30px #50091533}.final button{color:#ffe9ae}.calendar{width:min(390px,90vw);padding:22px;background:linear-gradient(145deg,#650c1a,#390610);border:1px solid #d9b45c;border-radius:12px;color:#ffe8aa;box-shadow:0 22px 55px #41081333}.calendar strong{display:block;font:110px 'Cormorant Garamond',serif;font-weight:600;color:#f4d47e}.calendar span{font:12px 'Playfair Display';letter-spacing:2px}.calendar hr{width:110px;border:0;border-top:1px solid #d3a94b}.calendar>b{display:block;font-size:28px}.count{display:flex;gap:8px;justify-content:center;margin-top:15px}.count div{width:75px;padding:8px;border:1px solid #d9bb72;border-radius:8px;background:#fff8e9}.count b{display:block;font:24px 'Cormorant Garamond',serif;font-weight:700;color:#650c1a}.count small{font-size:10px;color:#76513d}.venue{width:min(600px,100%);padding:40px 20px}.venue small{color:#9b6022;letter-spacing:3px}.venue h3{font-size:46px;color:#650c1a;margin:8px}.venue p{font-size:21px}.venue a{display:inline-block;background:#650c1a;color:#ffe9ad;text-decoration:none;border-radius:50px;padding:12px 18px;font-size:14px}.date{font:clamp(65px,13vw,130px) 'Cormorant Garamond',serif;font-weight:600;letter-spacing:3px;color:#f4d57e}.date span{font-size:.55em;color:#c69338}.final h2{color:#fff0bf}.final h2 i{color:#d99a55}.quote{font-size:18px!important;line-height:2!important;color:#f1dba4}.final strong{color:#d9b86f;margin-top:10px}nav{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);z-index:90;background:#30050ccc;padding:7px;border:1px solid #d0a64b55;border-radius:30px;display:flex;gap:4px}nav button{border:0;background:transparent;color:#d0b16b;width:28px;height:28px;border-radius:50%;cursor:pointer;font:12px 'Cormorant Garamond',serif;font-weight:700}nav button.active{background:#d2a23d;color:#36060e}.petal{position:fixed;top:-20px;width:8px;height:12px;background:#c97963;border-radius:80% 30% 80% 30%;opacity:.5;z-index:70;pointer-events:none;animation:fall linear forwards}@keyframes fall{to{transform:translate(var(--x),110vh) rotate(540deg);opacity:0}}
+/* Alignment and text-safety refinements */
+.page-content{width:min(1040px,calc(100% - 32px));padding-left:16px;padding-right:16px;min-height:auto}
+.page-content > *{max-width:100%}
+h1,h2,h3,p,.names-title,.final-message,.family-card,.venue-card,.ornate-card{overflow-wrap:anywhere;word-break:normal}
+.names-title{line-height:1.32;row-gap:6px}
+.names-title span{display:inline-block}
+.body,.intro,.tiny-sloka,.family-card p,.final-message{max-width:760px}
+.family-card{min-width:0}
+.family-card h3{line-height:1.25}
+.ornate-card{line-height:1.75}
+.reveal-btn{line-height:1.5;max-width:94vw}
+.main-btn{line-height:1.55;max-width:94vw}
+.music-control{position:fixed;right:18px;bottom:18px;z-index:96;display:flex;align-items:center;gap:7px}
+.music-label{font:11px "Playfair Display";letter-spacing:1px;color:#f3d58d;background:rgba(48,5,13,.8);padding:7px 9px;border-radius:20px;border:1px solid rgba(214,174,85,.45);backdrop-filter:blur(8px)}
+.music{position:static!important;width:45px;height:45px;display:grid;place-items:center}
+.music.on{background:#d4a33f;color:#3a0710;box-shadow:0 0 22px rgba(224,181,73,.35)}
+
+@media(max-width:700px){.families{grid-template-columns:1fr}.heart{margin:auto}.ganesha{width:175px;height:175px}.families h3{font-size:31px}.page .content>p{font-size:14px}.venue h3{font-size:38px}}
+
+/* Premium wedding typography */
+h1,h2,h3,.date,.calendar strong,.card strong{font-family:'Potti Sreeramulu','Noto Serif Telugu',serif} .hero h1,.date{letter-spacing:1px}.hero small,.venue small,.families small,header b,nav button{font-family:'Cormorant Garamond',serif;font-weight:700}.page button{font-weight:600}
+
+/* Exact requested Telugu font. If it is installed locally, it is used directly. */
+body,h1,h2,h3,p,button,label,small,.hero h1,.page h2,.families h3,.venue h3,.quote{font-family:'Potti Sreeramulu','Noto Serif Telugu',serif;}
+.music-control{position:fixed;right:18px;bottom:18px;z-index:96;display:flex;align-items:center;gap:7px}.music-label{font:11px 'Cormorant Garamond',serif;letter-spacing:1px;color:#f3d58d;background:rgba(48,5,13,.86);padding:7px 10px;border-radius:20px;border:1px solid rgba(214,174,85,.5);backdrop-filter:blur(8px)}.music{margin:0!important;width:46px!important;height:46px!important;padding:0!important;display:grid;place-items:center;font-family:serif!important;font-size:18px!important}.music.on{background:#d4a33f!important;color:#3a0710!important;box-shadow:0 0 22px rgba(224,181,73,.35)}
+@media(max-width:700px){.music-control{right:9px;bottom:52px}.music-label{display:none}.page .content{padding-top:82px;padding-bottom:118px}.page h2{line-height:1.35}.hero h1{line-height:1.22}.families article{width:100%;}.families p{line-height:1.9}.card,.venue{max-width:calc(100vw - 40px);}.calendar{max-width:calc(100vw - 50px)}}
+
+.yt-player{
+  position:fixed;
+  width:1px;
+  height:1px;
+  left:-10px;
+  bottom:-10px;
+  opacity:.01;
+  pointer-events:none;
+  overflow:hidden;
+}
+
+#weddingMusic{position:fixed;width:1px;height:1px;left:-100px;bottom:-100px;opacity:0;pointer-events:none}
+
+/* V7 stability + responsive overrides */
+body{min-width:320px}
+main{width:100%;display:block}
+.page{isolation:isolate}
+.page-content{box-sizing:border-box}
+.page-content.center{width:min(1040px,calc(100% - 28px))}
+img{max-width:100%;height:auto}
+button,a{touch-action:manipulation}
+@media(max-width:700px){
+  .page{min-height:100svh;padding-top:0}
+  .page-content{width:calc(100% - 24px);padding:78px 8px 105px}
+  .sandadi{font-size:clamp(35px,11vw,58px)}
+  .ganesha-frame{flex:0 0 auto}
+  .family-grid{width:100%}
+  .family-card{width:100%}
+  .venue-card{width:100%;padding:32px 16px}
+  .save-date{font-size:clamp(50px,15vw,82px)}
+  .bottom-nav{z-index:95}
+}
+
+/* V9: true one-page-at-a-time invitation */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+  margin: 0;
+}
+body {
+  position: relative;
+}
+.page {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100svh !important;
+  min-height: 100svh !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  transform: scale(1.015) !important;
+  transition: opacity .45s ease, transform .55s ease, visibility 0s linear .55s !important;
+}
+.page.active {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  transform: scale(1) !important;
+  transition: opacity .45s ease, transform .55s ease, visibility 0s linear 0s !important;
+}
+.page * {
+  max-width: 100%;
+}
+button, a, .nav-btn, .next-btn, .next-page, .continue-btn, .prev-btn, .prev-page {
+  position: relative;
+  z-index: 100;
+  touch-action: manipulation;
+}
+
+/* V10 navigation stability */
+html, body { width:100%; height:100%; overflow:hidden !important; }
+main { width:100%; height:100%; overflow:hidden !important; }
+.page { position:fixed !important; inset:0 !important; width:100% !important; height:100svh !important; min-height:100svh !important; overflow:hidden !important; visibility:hidden !important; opacity:0 !important; pointer-events:none !important; transform:scale(1.02) !important; }
+.page.active { visibility:visible !important; opacity:1 !important; pointer-events:auto !important; transform:scale(1) !important; }
+nav { pointer-events:auto !important; z-index:200 !important; }
+.page button, .page a { pointer-events:auto !important; z-index:210 !important; }
+
+/* V11: separate pages + internal scrolling */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+  margin: 0;
+}
+
+.page {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100svh !important;
+  min-height: 100svh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  box-sizing: border-box;
+}
+
+.page.active {
+  pointer-events: auto !important;
+}
+
+.page-content,
+.page-inner,
+.invitation-content,
+.content {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .page {
+    padding-bottom: 110px !important;
+  }
+}
+
+/* V12: mobile scrolling stays on the current invitation page */
+.page {
+  touch-action: pan-y !important;
+  overscroll-behavior-y: contain !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+/* V13: buttons are the ONLY way to change invitation pages */
+html, body, main {
+  overflow: hidden !important;
+  height: 100% !important;
+}
+.page {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  touch-action: pan-y !important;
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior: contain !important;
+}
+.page.active {
+  pointer-events: auto !important;
+}

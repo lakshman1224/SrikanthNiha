@@ -1,0 +1,1 @@
+Potti Sreeramulu is the requested font family. The site uses 'Potti Sreeramulu' first and falls back to Noto Serif Telugu if that font is not installed on the device. The font is documented as part of the Telugu Vijayam family and is distributed under OFL-1.1 in the openSUSE/Debian package metadata.
